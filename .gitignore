@@ -1,0 +1,56 @@
+# ------------------------------
+# Frontend - Expo (App/)
+# ------------------------------
+App/node_modules/
+App/.expo/
+App/.expo-shared/
+App/dist/
+App/web-build/
+App/.metro-health-check*
+App/.kotlin/
+App/*.jks
+App/*.p8
+App/*.p12
+App/*.key
+App/*.mobileprovision
+App/*.orig.*
+App/*.pem
+App/npm-debug.*
+App/yarn-debug.*
+App/yarn-error.*
+App/.env
+App/.env.*
+App/.env*.local
+App/.DS_Store
+App/*.apk
+App/*.aab
+App/*.ipa
+App/*.keystore
+App/expo-env.d.ts
+
+# ------------------------------
+# Admin Dashboard
+# ------------------------------
+admin/node_modules/
+admin/dist/
+admin/.vite/
+
+# ------------------------------
+# Backend (Rust)
+# ------------------------------
+backend/target/
+backend/.env
+backend/.env.*
+
+# ------------------------------
+# Global
+# ------------------------------
+.env
+.env.*
+*.log
+.DS_Store
+.idea/
+*.tsbuildinfo
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
